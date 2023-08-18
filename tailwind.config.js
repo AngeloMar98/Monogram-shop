@@ -8,34 +8,37 @@ module.exports = {
       backgroundImage: {},
       content: {},
     },
+    fontWeight: {
+      thin: 300,
+      thinner: 400,
+      bold: 500,
+      bolder: 600,
+    },
+    spacing: {
+      sm: `1.2rem`,
+      m: `2.8rem`,
+      x: `3.8rem`,
+    },
+    fontFamily: {
+      prompt: "Prompt",
+    },
     screens: {
-      mobile: "340px",
-      desktop: "600px",
+      laptop: `770px`,
+      desktop: `990px`,
+      wide_desktop: `1200px`,
     },
     colors: {
       /* primary */
-      brightBlue: `hsl(220, 98%, 61%)`,
-      cyan: `hsl(192, 100%, 67%)`,
-      lightPurple: `hsl(280, 87%, 65%)`,
+      lightPink: `#efc2b3`,
+      pink: `#ff8b68`,
+      darkGray: `#c4c4c4`,
+      gray: `#f0efed`,
+      blue: `#1a2456`,
+      darkBlue: `#080b1b`,
       /*light theme */
-      lightM: {
-        white: `hsl(0, 0%, 98%)`,
-        gray200: `hsl(236, 33%, 92%)`,
-        gray300: `hsl(233, 11%, 84%)`,
-        gray400: `hsl(236, 9%, 61%)`,
-        gray600: `hsl(235, 19%, 35%)`,
-      },
-      darkM: {
-        darkBlue100: `hsl(235, 24%, 19%)`,
-        darkBlue200: `hsl(235, 21%, 11%)`,
-        gray200: `hsl(234, 39%, 85%)`,
-        white: `hsl(236, 33%, 92%)`,
-        darkGray100: `hsl(234, 11%, 52%)`,
-        darkGray200: `hsl(233, 14%, 35%)`,
-        darkGray300: `hsl(237, 14%, 26%)`,
-      },
+      lightM: {},
     },
-    fontFamily: {},
+
     extend: {
       spacing: {},
       borderRadius: {},

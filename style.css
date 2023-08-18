@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .pinkHov {
+    @apply fill-lightPink hover:fill-pink cursor-pointer text-lightPink hover:text-pink;
+  }
+  .hero-shadow {
+    box-shadow: inset 0 0 0 999px #000000a1;
+  }
+
+  .preorder::after {
+    content: "pre-order";
+    position: absolute;
+    text-transform: uppercase;
+    text-align: center;
+    right: 0;
+    top: 12px;
+    padding: 0.4rem 1.4rem;
+    font-size: 1.2rem;
+    color: #1a2456;
+    background-color: #ff8b68;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+}
