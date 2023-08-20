@@ -57,7 +57,7 @@ const updatePricesCurrency = function () {
             case "EUR":
                 priceCurrency.textContent = "€";
                 priceNumber.textContent = String(Intl.NumberFormat("de-DE").format(fx
-                    .convert(Number(_d = priceNumber === null || priceNumber === void 0 ? void 0 : priceNumber.textContent), {
+                    .convert(Number((_d = priceNumber === null || priceNumber === void 0 ? void 0 : priceNumber.textContent)  === null || _c === void 0 ? void 0 : _c.replaceAll(",", "")), {
                     from: previousCurrency,
                     to: currCurrencyLong === null || currCurrencyLong === void 0 ? void 0 : currCurrencyLong.textContent,
                 })
