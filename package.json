@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "money": "^0.2.0"
+  },
+  "devDependencies": {
+    "@types/money": "^0.2.0",
+    "@types/node": "^20.5.1"
+  }
+}

@@ -23,6 +23,7 @@ module.exports = {
       prompt: "Prompt",
     },
     screens: {
+      mobile: `380px`,
       laptop: `770px`,
       desktop: `990px`,
       wide_desktop: `1200px`,

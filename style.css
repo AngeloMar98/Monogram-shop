@@ -4,10 +4,14 @@
 
 @layer base {
   .pinkHov {
-    @apply fill-lightPink hover:fill-pink cursor-pointer text-lightPink hover:text-pink;
+    @apply fill-lightPink hover:fill-pink  text-lightPink hover:cursor-pointer  hover:text-pink;
   }
   .hero-shadow {
     box-shadow: inset 0 0 0 999px #000000a1;
+  }
+
+  .navbar-shadow {
+    box-shadow: 0 0 0 999px #000000a1;
   }
 
   .preorder::after {
