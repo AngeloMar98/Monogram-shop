@@ -3,6 +3,7 @@
 To practice a little more with tailwind and a little bit with javascript I tried to replicate the monogram shop:
 
 [Original site](https://monogramcc.com/shop/)
+
 [Replica](https://monogram-shop-replica.vercel.app/)
 
 The proportions don't quite add up but I'm much more confident with tailwind now. You can see a lot of repeated elements and I plan to learn something
